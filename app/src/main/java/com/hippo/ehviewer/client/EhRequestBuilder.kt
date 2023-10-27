@@ -15,7 +15,6 @@
  */
 package com.hippo.ehviewer.client
 
-import com.hippo.ehviewer.EhApplication.Companion.noRedirectOkHttpClient
 import com.hippo.okhttp.ChromeRequestBuilder
 import io.ktor.http.HttpMessageBuilder
 

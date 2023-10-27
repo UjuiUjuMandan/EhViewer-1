@@ -15,7 +15,6 @@
  */
 package com.hippo.ehviewer.client
 
-import android.webkit.CookieManager
 import com.hippo.ehviewer.EhApplication
 import com.hippo.network.CookieDatabase
 import com.hippo.network.CookieSet
