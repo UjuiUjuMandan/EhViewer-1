@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2016 Hippo Seven
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources>
+
+    <color name="primary_drawable">#ffffffff</color>
+    <color name="secondary_drawable">#4dffffff</color>
+
+    <color name="content">@color/grey_825</color>
+    <color name="content_activated">@color/grey_600</color>
+    <color name="widget">@color/grey_700</color>
+    <color name="progress">@color/grey_600</color>
+    <color name="tag_group_background">@color/grey_775</color>
+    <color name="tag_background">@color/grey_775</color>
+    <color name="gallery_detail_button_background">@color/grey_775</color>
+
+    <!-- divider -->
+    <color name="divider">#20ffffff</color>
+
+    <!-- shadow -->
+
+    <!-- Gallery Activity -->
+    <color name="gallery_slider_background">@color/grey_900</color>
+
+    <!-- Lock pattern view -->
+    <color name="lock_pattern_view_regular_color">#8affffff</color>
+
+    <!--Shortcut background-->
+    <color name="colorBackground">#303030</color>
+</resources>

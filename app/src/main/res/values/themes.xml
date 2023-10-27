@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+  ~ Copyright 2016 Hippo Seven
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~     http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- ========== -->
+    <!-- Base Theme -->
+    <!-- ========== -->
+    <style name="Base.AppTheme.Light" parent="Theme.Material.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorBackground</item>
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">@color/ic_launcher_background</item>
+
+        <item name="dividerColor">@color/divider</item>
+        <item name="toolbarColor">@color/colorPrimary</item>
+        <item name="textColorThemePrimary">@color/colorPrimary</item>
+        <item name="textColorThemeAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/primary_drawable</item>
+        <item name="drawableColorSecondary">@color/secondary_drawable</item>
+        <item name="drawableColorThemePrimary">@color/colorPrimary</item>
+        <item name="contentColorPrimary">@color/content</item>
+        <item name="contentColorThemePrimary">@color/colorPrimary</item>
+        <item name="contentColorThemeAccent">@color/colorAccent</item>
+        <item name="contentColorReactive">@color/content_reactive</item>
+        <item name="widgetColorThemePrimary">@color/colorPrimary</item>
+        <item name="widgetColorThemeAccent">@color/colorAccent</item>
+        <item name="progressColor">@color/progress</item>
+        <item name="guideBackgroundColor">@color/guide_bg</item>
+        <item name="guideTitleColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="guideTextColor">?android:attr/textColorSecondaryInverse</item>
+        <item name="tagGroupBackgroundColor">@color/tag_group_background</item>
+        <item name="tagBackgroundColor">@color/tag_background</item>
+        <item name="galleryDetailHeaderTitleColor">?android:attr/textColorPrimaryInverse</item>
+        <item name="galleryDetailHeaderBackgroundColor">?attr/contentColorThemePrimary</item>
+        <item name="galleryDetailButtonBackgroundColor">@color/gallery_detail_button_background
+        </item>
+
+        <item name="toolbarPopupTheme">@style/ThemeOverlay.MaterialComponents.Light</item>
+        <item name="galleryDetailDivider">@drawable/divider_gallery_detail</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Base.AppTheme" parent="Theme.Material">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/grey_875</item>
+        <item name="colorAccent">@color/colorPrimary</item>
+        <item name="colorControlActivated">@color/colorPrimary</item>
+        <item name="android:colorBackground">@color/grey_850</item>
+        <item name="android:windowSplashScreenIconBackgroundColor" tools:targetApi="s">@color/ic_launcher_background</item>
+
+        <!-- Non-overhead workaround for ROMs enable it by default, MIUI etc. -->
+        <item name="android:forceDarkAllowed" tools:targetApi="29">false</item>
+
+        <item name="dividerColor">@color/divider</item>
+        <item name="toolbarColor">?android:attr/colorBackground</item>
+        <item name="textColorThemePrimary">?android:attr/textColorSecondary</item>
+        <item name="textColorThemeAccent">?android:attr/textColorSecondary</item>
+        <item name="colorControlNormal">@color/primary_drawable</item>
+        <item name="drawableColorSecondary">@color/secondary_drawable</item>
+        <item name="drawableColorThemePrimary">@color/primary_drawable</item>
+        <item name="contentColorPrimary">@color/content</item>
+        <item name="contentColorThemePrimary">?attr/contentColorPrimary</item>
+        <item name="contentColorThemeAccent">?attr/contentColorPrimary</item>
+        <item name="contentColorReactive">@color/content_reactive</item>
+        <item name="widgetColorThemePrimary">@color/widget</item>
+        <item name="widgetColorThemeAccent">@color/widget</item>
+        <item name="progressColor">@color/progress</item>
+        <item name="guideBackgroundColor">#e5303030</item>
+        <item name="guideTitleColor">?android:attr/textColorPrimary</item>
+        <item name="guideTextColor">?android:attr/textColorSecondary</item>
+        <item name="tagGroupBackgroundColor">@color/tag_group_background</item>
+        <item name="tagBackgroundColor">@color/tag_background</item>
+        <item name="galleryDetailHeaderTitleColor">?android:attr/textColorPrimary</item>
+        <item name="galleryDetailHeaderBackgroundColor">?attr/contentColorThemePrimary</item>
+        <item name="galleryDetailButtonBackgroundColor">@color/gallery_detail_button_background</item>
+
+        <item name="toolbarPopupTheme">@style/ThemeOverlay.MaterialComponents.Dark</item>
+        <item name="galleryDetailDivider">@drawable/divider_gallery_detail_dark</item>
+
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <!-- =============== -->
+    <!-- Base Black Theme -->
+    <!-- =============== -->
+
+    <style name="ThemeOverlay" />
+
+    <style name="ThemeOverlay.Black">
+        <item name="colorPrimaryDark">@android:color/black</item>
+
+        <item name="android:colorBackground">@android:color/black</item>
+
+        <item name="android:textColorPrimary">@color/primary_text_material_black</item>
+
+        <item name="dividerColor">@color/divider_black</item>
+        <item name="toolbarColor">@android:color/black</item>
+        <item name="colorControlNormal">@color/primary_drawable_black</item>
+        <item name="drawableColorSecondary">@color/secondary_drawable_black</item>
+        <item name="drawableColorThemePrimary">@color/primary_drawable_black</item>
+        <item name="contentColorPrimary">@color/content_black</item>
+        <item name="contentColorReactive">@color/content_reactive_black</item>
+        <item name="widgetColorThemePrimary">@color/widget_black</item>
+        <item name="widgetColorThemeAccent">@color/widget_black</item>
+        <item name="progressColor">@color/progress_black</item>
+        <item name="guideBackgroundColor">#e5000000</item>
+        <item name="tagGroupBackgroundColor">@color/tag_group_background_black</item>
+        <item name="tagBackgroundColor">@color/tag_background_black</item>
+        <item name="galleryDetailHeaderBackgroundColor">@android:color/black</item>
+        <item name="galleryDetailButtonBackgroundColor">
+            @color/gallery_detail_button_background_black
+        </item>
+
+        <item name="galleryDetailDivider">@drawable/divider_gallery_detail_dark</item>
+    </style>
+
+    <style name="AppTheme.Gallery" parent="AppTheme">
+        <item name="gallerySliderBackgroundColor">@color/gallery_slider_background</item>
+    </style>
+
+    <!-- ============ -->
+    <!-- Widget Theme -->
+    <!-- ============ -->
+    <style name="CommentEditText" parent="ThemeOverlay.MaterialComponents">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@android:color/white</item>
+    </style>
+
+    <style name="RatingBarTheme" parent="ThemeOverlay.MaterialComponents">
+        <item name="colorControlNormal">@color/yellow_800</item>
+        <item name="colorControlActivated">@color/yellow_800</item>
+    </style>
+
+    <style name="Widget.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:outlineAmbientShadowColor" tools:targetApi="28">?attr/widgetColorThemePrimary</item>
+        <item name="android:outlineSpotShadowColor" tools:targetApi="28">?attr/widgetColorThemePrimary</item>
+        <item name="backgroundTint">?attr/widgetColorThemePrimary</item>
+        <item name="tint">#fff</item>
+    </style>
+
+    <style name="Widget.FloatingActionButton.Accent" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="android:outlineAmbientShadowColor" tools:targetApi="28">?attr/widgetColorThemeAccent</item>
+        <item name="android:outlineSpotShadowColor" tools:targetApi="28">?attr/widgetColorThemeAccent</item>
+        <item name="backgroundTint">?attr/widgetColorThemeAccent</item>
+        <item name="tint">#fff</item>
+    </style>
+
+    <style name="Widget.FloatingActionButton.Accent.Mini" parent="Widget.FloatingActionButton.Accent">
+        <item name="fabSize">mini</item>
+    </style>
+
+</resources>
