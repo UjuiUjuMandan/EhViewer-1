@@ -44,12 +44,8 @@ import com.hippo.util.ReadableTime
 import com.hippo.util.launchIO
 import com.hippo.yorozuya.FileUtils
 import com.hippo.yorozuya.IntIdGenerator
-<<<<<<< HEAD
-import eu.kanade.tachiyomi.network.interceptor.CloudflareInterceptor
-=======
 import io.ktor.client.HttpClient
 import io.ktor.client.engine.okhttp.OkHttp
->>>>>>> parent of fc6a686f (Drop Ktor)
 import kotlinx.coroutines.DelicateCoroutinesApi
 import okhttp3.Cache
 import okhttp3.OkHttpClient

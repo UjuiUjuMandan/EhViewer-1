@@ -165,11 +165,6 @@ object Settings {
     private const val DEFAULT_READ_CACHE_SIZE = 320
     const val KEY_APP_LANGUAGE = "app_language"
     private const val DEFAULT_APP_LANGUAGE = "system"
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 7afc74d9 (Drop proxy and hosts settings)
     private const val KEY_PROXY_TYPE = "proxy_type"
     private const val DEFAULT_PROXY_TYPE = EhProxySelector.TYPE_SYSTEM
     private const val KEY_PROXY_IP = "proxy_ip"
@@ -178,14 +173,10 @@ object Settings {
     private const val DEFAULT_PROXY_PORT = -1
     private const val KEY_BUILT_IN_HOSTS = "built_in_hosts_2"
     private const val DEFAULT_BUILT_IN_HOSTS = false
-<<<<<<< HEAD
     const val KEY_DOMAIN_FRONTING = "domain_fronting"
     private const val DEFAULT_DOMAIN_FRONTING = false
     const val KEY_BYPASS_VPN = "bypass_vpn"
     private const val DEFAULT_BYPASS_VPN = true
->>>>>>> parent of 2858a629 (Drop domain fronting since Ehviewer-Overhauled/Ehviewer#1147)
-=======
->>>>>>> parent of 7afc74d9 (Drop proxy and hosts settings)
     private const val KEY_APP_LINK_VERIFY_TIP = "app_link_verify_tip"
     private const val DEFAULT_APP_LINK_VERIFY_TIP = false
 
@@ -639,11 +630,6 @@ object Settings {
     val appLanguage: String?
         get() = getString(KEY_APP_LANGUAGE, DEFAULT_APP_LANGUAGE)
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> parent of 7afc74d9 (Drop proxy and hosts settings)
     val proxyType: Int
         get() = getInt(KEY_PROXY_TYPE, DEFAULT_PROXY_TYPE)
     fun putProxyType(value: Int) {
@@ -665,16 +651,12 @@ object Settings {
     val builtInHosts: Boolean
         get() = getBoolean(KEY_BUILT_IN_HOSTS, DEFAULT_BUILT_IN_HOSTS)
 
-<<<<<<< HEAD
     val dF: Boolean
         get() = getBoolean(KEY_DOMAIN_FRONTING, DEFAULT_DOMAIN_FRONTING)
 
     val bypassVpn: Boolean
         get() = getBoolean(KEY_BYPASS_VPN, DEFAULT_BYPASS_VPN)
 
->>>>>>> parent of 2858a629 (Drop domain fronting since Ehviewer-Overhauled/Ehviewer#1147)
-=======
->>>>>>> parent of 7afc74d9 (Drop proxy and hosts settings)
     val appLinkVerifyTip: Boolean
         get() = getBoolean(KEY_APP_LINK_VERIFY_TIP, DEFAULT_APP_LINK_VERIFY_TIP)
     fun putAppLinkVerifyTip(value: Boolean) {
